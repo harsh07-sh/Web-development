@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 65px;
+}
+img{
+    width: 35px;
+    height: 35px;
+}
+.img1{
+    height: 35px;
+    width: 10%;
+    display:inline-block;
+    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+    margin-left: 10px;
+
+}
+.list1{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 35px;
+    
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+   margin-top: 8px;
+    
+
+}
+li a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+}
+li{
+    
+    margin-right:10px;
+    margin-left:10px;
+    
+}
+#nav1{
+display:flex;
+
+
+}
+.search button{
+    border: none;
+    background-color: white;
+height: 35px;
+
+
+
+}
+.list2{
+    display: flex;
+    justify-content: center;
+    width:60% ;
+    font-size:1.5em;
+}
+.img2{
+    width: 17%;
+    height: 65px;
+    display: flex;
+    /* justify-content: center; */
+    
+
+}
+.img2 img{
+    width: auto;
+    height: auto;
+}
+.search input{
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: 100;
+   background-color:rgb(226, 226, 226);
+   text-align: center;
+   height: 35px;
+    
+}
+.search{
+    display: flex;
+    width: 23%;
+    height: 50px;
+    margin-top: 15px;
+    justify-content: right;
+   gap: 7px;
+
+}
+#nav2{
+    display: flex;
+   z-index: 1000;
+    position:fixed;
+   left: 0;
+   overflow: hidden;
+   top: 0;
+   right: 0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 65px;
+}
+.list2 li{
+padding: 0.5em;
+
+}
+    .container{
+            margin: 100px auto;
+            width: 100%;
+            /* border: 5px solid blue; */
+            display: flex;
+            overflow-x: auto;
+         
+    
+
+        }
+        .container::-webkit-scrollbar{
+            display:none;
+        }
+        .group{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            animation: spin 50s infinite linear;
+            padding-right: 1em;
+        }
+        .card1{
+            flex: 0 0 27em;
+            height: 13em;
+            /* width: 9em; */
+            padding:1em;
+            background-color: aquamarine;
+            font-size: 3rem;
+            border-radius: 0.2em;
+            text-align: center;
+            align-items: center;
+            background-image: url(A\ sleek\ sneaker\ ad\ s.png);
+            background-repeat: no-repeat;
+             background-size: cover;         /* or use 'contain' */
+  background-position: center;
+            
+
+        }
+        .card2{
+            flex: 0 0 27em;
+            height: 13em;
+            /* width: 9em; */
+            padding:1em;
+            background-color: aquamarine;
+            font-size: 3rem;
+            border-radius: 0.2em;
+            text-align: center;
+            align-items: center;
+           background-image: url(A\ stylish\ sneaker\ ad.png);
+           background-repeat: no-repeat;
+ background-size: cover;         /* or use 'contain' */
+  background-position: center;
+
+        }
+        .card3{
+            flex: 0 0 27em;
+            height: 13em;
+            /* width: 9em; */
+            padding:1em;
+            background-color: aquamarine;
+            font-size: 3rem;
+            border-radius: 0.2em;
+            text-align: center;
+            align-items: center;
+            background-image: url(A\ retro\ sneaker\ ad\ f.png);
+          background-repeat: no-repeat;
+           background-size: cover;         /* or use 'contain' */
+  background-position: center;
+        }
+        .card4{
+            flex: 0 0 27em;
+            height: 13em;
+            /* width: 9em; */
+            padding:1em;
+            background-color: aquamarine;
+            font-size: 3rem;
+            border-radius: 0.2em;
+            text-align: center;
+            align-items: center;
+            background-image: url(A\ promotional\ sneake.png);
+            background-repeat: no-repeat;
+             background-size: cover;         /* or use 'contain' */
+  background-position: center;
+        
+        }
+        .card5{
+            flex: 0 0 27em;
+            height: 13em;
+            /* width: 9em; */
+            padding:1em;
+            background-color: aquamarine;
+            font-size: 3rem;
+            border-radius: 0.2em;
+            text-align: center;
+            align-items: center;
+            background-image: url(A\ dynamic\ sneaker\ ad.png);
+            background-repeat: no-repeat;
+             background-size: cover;         /* or use 'contain' */
+  background-position: center;
+
+           
+
+        }
+        .card6{
+            flex: 0 0 27em;
+            height: 13em;
+            /* width: 9em; */
+            padding:1em;
+            background-color: aquamarine;
+            font-size: 3rem;
+            border-radius: 0.2em;
+            text-align: center;
+            align-items: center;
+            background-image: url(NIKE\ SHOES.jpg);
+            background-repeat: no-repeat;
+             background-size: cover;         /* or use 'contain' */
+  background-position: center;
+            
+
+        }
+        @keyframes spin{
+            from{translate: 0;}
+            to {translate: -100%;}
+        }
+        #mix img{
+                width: 25px;
+    height: 25px;
+    position: relative;
+    left: 3em;
+    top:2px;
+    
+
+        }
+.box1 {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+      color:white;
+      padding-top: 23em;
+      padding-left: 3em;
+    background-image: url(sneaker-that-has-word-nike-it_123827-23436.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 70px auto;
+    
+   
+}
+.box2 {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    color:white;
+      padding-top: 23em;
+      padding-left: 3em;
+    background-image: url(60513325ef8ee5382a90dd7881787b12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+
+}
+.box3 {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+   color:white;
+      padding-top: 23em;
+      padding-left: 3em;
+    background-image: url(pexels-introspectivedsgn-5662812.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box4 {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    color:white;
+      padding-top: 23em;
+      padding-left: 3em;
+    background-image: url(Best\ Nike\ Walking\ Shoes\ 082024\ Lede.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoe-list{
+    background-color: rgb(255, 255, 255);
+    width: 620px;
+    height: 700px;
+}
+.shoe-list img{
+    width: 590px;
+    height: 590px;
+}
+.container3{
+    display:flex;
+   
+    gap: 20px;
+    overflow-x: auto;
+    width: 90%;
+    margin: 50px auto;
+}
+.sport{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 650px;
+}
+.sport img{
+    width: auto;
+    height: 560px;
+}
+.container4{
+    display:flex;
+   
+    gap: 20px;
+    overflow-x: auto;
+    width: 90%;
+    margin: 50px auto;
+}
+.container5{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px auto;
+    border-top: 1px solid black;
+}
+#footer{
+    padding: 48px;
+}
+.block{
+    margin-top: 60px ;
+}
+.bottom{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
